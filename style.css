@@ -1,0 +1,176 @@
+@media
+    only screen and (min-width: 780px) {
+        img{width: 25%}
+    }
+
+body{
+    background-color: #81b29a;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+    background-color: #f4f1de;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a:hover{
+    color: #e07a5f;
+}
+
+.Home{
+    color: #3d405b;
+}
+
+.second-page{
+    color: #3d405b;
+}
+
+.main-header{
+    text-align: center;
+    color: #f4f1de;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    margin: 30px 10px 30px 10px;
+
+}
+
+.intro{
+    text-align: center;
+    color: #3d405b;
+    margin: 30px 15px 30px 15px;
+    padding: 10px 20px 10px 20px;
+    border: solid 5px #f4f1de;
+    background-color: #f4f1de;
+    border-radius: 15px;
+
+}
+
+.card{
+    color: #3d405b;
+    background-color: #f4f1de;
+    text-align: center;
+}
+
+.newsletter{
+    text-align: center;
+    color:#f4f1de; 
+    margin: 30px 15px 30px 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.submit{
+    background-color:#f4f1de;
+    color: #3d405b;
+    margin: 5px 5px 5px 5px;
+}
+
+.submit:hover{
+    background-color: #e07a5f;
+}
+
+.form{
+    color:#f4f1de;
+}
+
+.signup-form{
+    text-align: center;
+    vertical-align: middle;
+    margin: 30px 15px 30px 15px; 
+}
+
+label{
+    margin: 5px 5px 5px 5px;
+}
+
+input{
+    color:#e07a5f;
+    background-color: #f4f1de;
+}
+
+input:focus{
+    outline: 2px #e07a5f;
+}
+
+
+#para2{
+    text-align: center;
+    color: #3d405b;
+    margin: 30px 15px 30px 15px;
+    border: solid 5px #f4f1de;
+    background-color: #f4f1de;
+    border-radius: 15px;
+    font-size: 20px; 
+}
+
+.carousel-wrapper{
+    vertical-align: middle;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    max-height: 750px;
+}
+
+.images-p2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-thumbnail{
+    max-height: 450px;
+    max-width: 350px;
+    background-color:#f4f1de;
+    margin: 30px 15px 30px 15px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+}
+
+/* make the image reponsive */
+.img-thumbnail{
+    display: block;
+  width: 350px;
+  height: 450px;
+}
+
+/* the overlay effect */
+.overlay{
+position: absolute;
+bottom: 0;
+background: #f4f1de;
+background: #f4f1de;
+transition: .5s ease;
+opacity:0;
+color: #81b29a;
+font-size: 20px;
+padding: 10px;
+text-align: center;
+width:100%;
+}
+
+.container:hover .overlay{
+    opacity: 1;
+}
+
+
+
+#footer{
+    color: #f4f1de;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
